@@ -18,11 +18,12 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
 
-from personal_website.views import HomeView, AboutView
+from personal_website.views import HomeView, AboutView, ContactView
 
 urlpatterns = [
     url(r'^$', HomeView.as_view(), name='home'),
     url(r'^about/', AboutView.as_view(), name='about'),
+    url(r'^contact/', ContactView.as_view(), name='contact'),
     url(r'^admin/', admin.site.urls),
 ]
 
