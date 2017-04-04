@@ -30,3 +30,13 @@ class ContactView(TemplateView):
     def get_context_data(self):
         """Get context data."""
         return {}
+
+
+class WorkView(TemplateView):
+    """Template View."""
+
+    template_name = 'personal_website/work.html'
+
+    def get_context_data(self):
+        """Get context data."""
+        return {}
