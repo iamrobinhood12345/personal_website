@@ -8,5 +8,15 @@ class HomeView(TemplateView):
     template_name = 'personal_website/home.html'
 
     def get_context_data(self):
-        """Get the posts of all users followed by logged in user."""
+        """Get context data."""
+        return {}
+
+
+class AboutView(TemplateView):
+    """Home View."""
+
+    template_name = 'personal_website/about.html'
+
+    def get_context_data(self):
+        """Get context data."""
         return {}
