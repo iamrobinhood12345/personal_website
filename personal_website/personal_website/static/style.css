@@ -1,13 +1,5 @@
 body{
-/*    background-image: url("/static/images/handshake.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center; 
-    width: 100vw;
-    height: 80vh;
-    position: relative;*/
+
 }
 
 /*.homebox{
@@ -118,7 +110,7 @@ html {
 
 .login-box {
   position: absolute;
-  top: 47%;
+  top: 30%;
   left:50%;
   transform: translate(-50%,-50%);
 }
@@ -162,18 +154,7 @@ footer {
     padding: 5%;
 }
 
-.handshake {
-    /*background-image: url("/static/images/handshake.jpg");*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center; 
-    width: 100vw;
-    height: 80vh;
-    position: relative;
-    text-align: center;
-}
+
 
 .img-responsive {
     width: 100%;
